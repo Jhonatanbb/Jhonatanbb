@@ -1,0 +1,11 @@
+ apt update && apt upgrade
+pkg install python 
+ pkg install git 
+ GitHub repository.
+
+  https://github.com/sherlock-project/sherlock.git
+ cd sherlock
+ pip3 install -r requiremnts.txt
+ pip3 install requests requests_futures 
+ python sherlock.py vadiaquerleitepy
+sherlock.py vadiaquerleite
