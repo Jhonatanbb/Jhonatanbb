@@ -1,1 +1,17 @@
-apt update && apt upgrade -y && pkg install git -y && pkg install golang -y && git clone https://github.com/mesuutt/sherlock.git && cd sherlock && go mod init sherlock && go get github.com/fatih/color && go get github.com/spf13/cobra && go build && ./sherlock Fabiana Jaques
+# Install required dependencies
+pkg install git python
+
+# Clone Sherlock repository
+git clone https://github.com/sherlock-project/sherlock.git
+
+# Navigate to directory
+cd sherlock
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Make the script executable (optional)
+chmod +x sherlock.py
+
+# Run Sherlock
+python sherlock.py Fabiana Jaques 
