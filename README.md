@@ -1,4 +1,4 @@
-
+8
 pkg install git python
 git clone https://github.com/sherlock-project/sherlock
 
